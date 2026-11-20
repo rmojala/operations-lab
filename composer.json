@@ -23,6 +23,12 @@
             "symfony/runtime": true
         },
         "bump-after-update": true,
+	"policy": {
+	    "cooldown": {
+		"period": "7 days"
+	    },
+	    "ignore-unreachable": false
+	},
         "sort-packages": true
     },
     "autoload": {
